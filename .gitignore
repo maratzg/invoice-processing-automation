@@ -1,0 +1,63 @@
+.DS_Store
+
+# Python
+
+__pycache__/
+
+*.py[cod]
+
+*.pyo
+
+# Virtual environments
+
+.venv/
+
+venv/
+
+env/
+
+# Local/private configuration
+
+config.json
+
+.env
+
+.env.*
+
+!.env.example
+
+# Real invoice input
+
+input_pdfs/*
+
+!input_pdfs/.gitkeep
+
+# Generated output
+
+output/*
+
+!output/.gitkeep
+
+# Runtime logs
+
+logs/*
+
+!logs/.gitkeep
+
+*.log
+
+# Official/proprietary MONEO template
+
+templates/*.xlsx
+
+# IDE
+
+.vscode/
+
+.idea/
+
+# Temporary files
+
+*.tmp
+
+*.bak

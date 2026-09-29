@@ -1,0 +1,26 @@
+{
+  "input_pdfs_dir": "input_pdfs",
+  "output_dir": "output",
+  "template_file": "templates/Rekinu_Imp_2024.xlsx",
+  "mappings_dir": "mappings",
+  "logs_dir": "logs",
+  "processed_log": "logs/processed_log.xlsx",
+  "run_log": "logs/run.log",
+  "moneo": {
+    "template_sheet": null,
+    "header_row": null,
+    "data_start_row": null,
+    "invoice_type": "Rēķins",
+    "invoice_type_value": "REK",
+    "currency": "EUR",
+    "discount_percent": null
+  },
+  "parser": {
+    "preferred_engine": "pdfplumber",
+    "max_pdf_size_mb": 25,
+    "min_extracted_text_chars": 50
+  },
+  "validation": {
+    "amount_tolerance": "0.02"
+  }
+}
